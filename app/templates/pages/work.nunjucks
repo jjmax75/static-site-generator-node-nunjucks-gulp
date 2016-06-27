@@ -1,0 +1,88 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% block content %}
+{{ nav.active('work') }}
+<main>
+
+  <section class="work">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Node JS<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                {% for item in portfolio.node | sort(false, true, 'title') %}
+                  <li role="presentation"><a href="#{{ item.slug }}" aria-controls="{{ item.slug }}" role="tab" data-toggle="tab">{{ item.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>{% if item.active %} in active{% endif %}
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Javascript<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                {% for item in portfolio.javascript | sort(false, true, 'title') %}
+                  <li role="presentation"><a href="#{{ item.slug }}" aria-controls="{{ item.slug }}" role="tab" data-toggle="tab">{{ item.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">React<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                {% for item in portfolio.react | sort(false, true, 'title') %}
+                  <li role="presentation"><a href="#{{ item.slug }}" aria-controls="{{ item.slug }}" role="tab" data-toggle="tab">{{ item.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Other<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                {% for item in portfolio.other | sort(false, true, 'title') %}
+                  <li role="presentation"><a href="#{{ item.slug }}" aria-controls="{{ item.slug }}" role="tab" data-toggle="tab">{{ item.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          </ul>
+          <div class="tab-content">
+            {% for item in portfolio.javascript %}
+            <div role="tabpanel" class="tab-pane fade" id="{{ item.slug }}">
+              <h3 class="text-center">{{ item.title }}</h3>
+              <p class="text-center">{{ item.subtitle }}</p>
+                <img class="pull-left img-responsive center-block" src="{% if item.image %}{{ item.image }}{% else %}http://dummyimage.com/400x300/2da376/fff.png&text=Image+unavailable{% endif %}" alt="{{ item.title }}" />
+                <ul>
+                  {% if item.demo %}<li><a href="{{ item.demo }}">Demo</a></li>{% endif %}
+                  {% if item.source %}<li><a href="{{ item.source }}">Source</a></li>{% endif %}
+                </ul>
+                {{ item.description | safe }}
+            </div>
+            {% endfor %}
+            {% for item in portfolio.node %}
+            <div role="tabpanel" class="tab-pane fade{% if item.active %} in active{% endif %}" id="{{ item.slug }}">
+              <h3 class="text-center">{{ item.title }}</h3>
+              <p class="text-center">{{ item.subtitle }}</p>
+                <img class="pull-left img-responsive center-block" src="{% if item.image %}{{ item.image }}{% else %}http://dummyimage.com/400x300/2da376/fff.png&text=Image+unavailable{% endif %}" alt="{{ item.title }}" />
+                <ul>
+                  {% if item.demo %}<li><a href="{{ item.demo }}">Demo</a></li>{% endif %}
+                  {% if item.source %}<li><a href="{{ item.source }}">Source</a></li>{% endif %}
+                </ul>
+                {{ item.description | safe }}
+            </div>
+            {% endfor %}
+            {% for item in portfolio.other %}
+            <div role="tabpanel" class="tab-pane fade{% if item.active %} in active{% endif %}" id="{{ item.slug }}">
+              <h3 class="text-center">{{ item.title }}</h3>
+              <p class="text-center">{{ item.subtitle }}</p>
+                <img class="pull-left img-responsive center-block" src="{% if item.image %}{{ item.image }}{% else %}http://dummyimage.com/400x300/2da376/fff.png&text=Image+unavailable{% endif %}" alt="{{ item.title }}" />
+                <ul>
+                  {% if item.demo %}<li><a href="{{ item.demo }}">Demo</a></li>{% endif %}
+                  {% if item.source %}<li><a href="{{ item.source }}">Source</a></li>{% endif %}
+                </ul>
+                {{ item.description | safe }}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+{% endblock %}

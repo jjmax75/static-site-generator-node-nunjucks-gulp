@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Box It Off - Web development by Sean Behan</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" media="screen" charset="utf-8">
+
+</head>
+
+<body>
+    
+    
+
+<header>
+    <nav class="navbar navbar-default">
+
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/" title="Box It Off - Web Development by Sean Behan" rel="homepage"><b>Box It Off</b></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">Home</a></li>
+                    <li class="active"><a href="/work.html">Work <span class="sr-only">(current)</span></a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</header>
+
+<main>
+
+  <section class="work">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Node JS<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                
+                  <li role="presentation"><a href="#file-metadata" aria-controls="file-metadata" role="tab" data-toggle="tab">File Metadata API</a></li>
+                
+                  <li role="presentation"><a href="#image-search" aria-controls="image-search" role="tab" data-toggle="tab">Google Image Search Module</a></li>
+                
+                  <li role="presentation"><a href="#header-parser" aria-controls="header-parser" role="tab" data-toggle="tab">Header Parser Microservice</a></li>
+                
+                  <li role="presentation"><a href="#hexmap" aria-controls="hexmap" role="tab" data-toggle="tab">Hexagon Tile Map Generator App</a></li>
+                
+                  <li role="presentation"><a href="#image-search-abstraction" aria-controls="image-search-abstraction" role="tab" data-toggle="tab">Image Search Abstraction App</a></li>
+                
+                  <li role="presentation"><a href="#terrain" aria-controls="terrain" role="tab" data-toggle="tab">Image to Terrain Module</a></li>
+                
+                  <li role="presentation"><a href="#bug-tracker" aria-controls="bug-tracker" role="tab" data-toggle="tab">MERN Bug Tracker App</a></li>
+                
+                  <li role="presentation"><a href="#payments" aria-controls="payments" role="tab" data-toggle="tab">Payments Library Demo App</a></li>
+                
+                  <li role="presentation"><a href="#polling" aria-controls="polling" role="tab" data-toggle="tab">Polling App</a></li>
+                
+                  <li role="presentation"><a href="#timestamp" aria-controls="timestamp" role="tab" data-toggle="tab">Timestamp Microservice</a></li>
+                
+                  <li role="presentation"><a href="#url-shortener" aria-controls="url-shortener" role="tab" data-toggle="tab">URL Shortener Microservice</a></li>
+                
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Javascript<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                
+                  <li role="presentation"><a href="#weather" aria-controls="weather" role="tab" data-toggle="tab">Local Weather Report App</a></li>
+                
+                  <li role="presentation"><a href="#percentages" aria-controls="percentages" role="tab" data-toggle="tab">Percentages Calculator App</a></li>
+                
+                  <li role="presentation"><a href="#pomodoro" aria-controls="pomodoro" role="tab" data-toggle="tab">Pomodoro Clock App</a></li>
+                
+                  <li role="presentation"><a href="#quote" aria-controls="quote" role="tab" data-toggle="tab">Random Quote Machine App</a></li>
+                
+                  <li role="presentation"><a href="#calculator" aria-controls="calculator" role="tab" data-toggle="tab">Speaking Calculator App</a></li>
+                
+                  <li role="presentation"><a href="#simon" aria-controls="simon" role="tab" data-toggle="tab">Star Wars Simon Game</a></li>
+                
+                  <li role="presentation"><a href="#tic-tac-toe" aria-controls="tic-tac-toe" role="tab" data-toggle="tab">Tic Tac Toe Game</a></li>
+                
+                  <li role="presentation"><a href="#twitch" aria-controls="twitch" role="tab" data-toggle="tab">Twitch TV API App</a></li>
+                
+                  <li role="presentation"><a href="#wikipedia" aria-controls="wikipedia" role="tab" data-toggle="tab">Wikipedia Search API App</a></li>
+                
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">React<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                
+                  <li role="presentation"><a href="#bug-tracker" aria-controls="bug-tracker" role="tab" data-toggle="tab">MERN Bug Tracker</a></li>
+                
+                  <li role="presentation"><a href="#polling" aria-controls="polling" role="tab" data-toggle="tab">Polling App</a></li>
+                
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Other<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                
+                  <li role="presentation"><a href="#book" aria-controls="book" role="tab" data-toggle="tab">Book Wishlist App</a></li>
+                
+                  <li role="presentation"><a href="#bbh" aria-controls="bbh" role="tab" data-toggle="tab">Bumblebee Honey Website</a></li>
+                
+                  <li role="presentation"><a href="#faad" aria-controls="faad" role="tab" data-toggle="tab">Forever and a Day Website</a></li>
+                
+                  <li role="presentation"><a href="#ice-app" aria-controls="ice-app" role="tab" data-toggle="tab">ICE Android App</a></li>
+                
+                  <li role="presentation"><a href="#needaticket" aria-controls="needaticket" role="tab" data-toggle="tab">Need A Ticket Ecommerce Website</a></li>
+                
+                  <li role="presentation"><a href="#pec" aria-controls="pec" role="tab" data-toggle="tab">Portarlington Enterprise Centre Website</a></li>
+                
+                  <li role="presentation"><a href="#python-adventure" aria-controls="python-adventure" role="tab" data-toggle="tab">Python Console Text Adventure</a></li>
+                
+                  <li role="presentation"><a href="#stock" aria-controls="stock" role="tab" data-toggle="tab">Stock Price Wordpress Plugin</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+          <div class="tab-content">
+            
+            <div role="tabpanel" class="tab-pane fade" id="tic-tac-toe">
+              <h3 class="text-center">Tic Tac Toe Game</h3>
+              <p class="text-center">Javascript powered tic-tac-toe using Monte Carlo algorithm for AI</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/tictactoe-400.jpg" alt="Tic Tac Toe Game" />
+                <ul>
+                  <li><a href="http://codepen.io/jjmax/full/GoprRN/">Demo</a></li>
+                  <li><a href="http://codepen.io/jjmax/pen/GoprRN/">Source</a></li>
+                </ul>
+                <p>I built this Tic Tac Toe game using a Monte Carlo algorithm for the computer player AI.</p><p>I chose the Monte Carlo approach as I wanted to experiment with this algorithm rather than building an AI that used a hard coded decision tree.</p><p>The objective was to create an unbeatable computer player however the Monte Carlo approach was not sufficient to this task and my computer AI was beatable using certain strategies.</p><p>After some research I found that I needed to rebuild the AI using a modified Monte Carlo algorithm called Upper Confidence bounds applied to Trees (UCT).</p><p>Other alternatives would be a Minimax Algorithm or a decision tree.</p><p>The design style, sounds and look, were inspired by the 1984 movie WarGames.</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="simon">
+              <h3 class="text-center">Star Wars Simon Game</h3>
+              <p class="text-center">A Simon game built with JS</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/simon-400.jpg" alt="Star Wars Simon Game" />
+                <ul>
+                  <li><a href="http://codepen.io/jjmax/full/XXdZKp/">Demo</a></li>
+                  <li><a href="http://codepen.io/jjmax/pen/XXdZKp/">Source</a></li>
+                </ul>
+                
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="calculator">
+              <h3 class="text-center">Speaking Calculator App</h3>
+              <p class="text-center">A JS calculator built with canvas and the speech synthesis API</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/calc-400.jpg" alt="Speaking Calculator App" />
+                <ul>
+                  <li><a href="http://codepen.io/jjmax/full/KdJNGR/">Demo</a></li>
+                  <li><a href="http://codepen.io/jjmax/pen/KdJNGR/">Source</a></li>
+                </ul>
+                
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="weather">
+              <h3 class="text-center">Local Weather Report App</h3>
+              <p class="text-center">Weather report with contextual video background</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/weather-400.jpg" alt="Local Weather Report App" />
+                <ul>
+                  <li><a href="http://codepen.io/jjmax/full/YyVRPM/">Demo</a></li>
+                  <li><a href="http://codepen.io/jjmax/pen/YyVRPM/">Source</a></li>
+                </ul>
+                
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="pomodoro">
+              <h3 class="text-center">Pomodoro Clock App</h3>
+              <p class="text-center">A Pomodoro Clock built with JS, Canvas and Google MDL</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/pomodoro-400.jpg" alt="Pomodoro Clock App" />
+                <ul>
+                  <li><a href="http://codepen.io/jjmax/full/xwLEYK/">Demo</a></li>
+                  <li><a href="http://codepen.io/jjmax/pen/xwLEYK/">Source</a></li>
+                </ul>
+                
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="twitch">
+              <h3 class="text-center">Twitch TV API App</h3>
+              <p class="text-center">Weather report with contextual video background</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/weather-400.jpg" alt="Twitch TV API App" />
+                <ul>
+                  <li><a href="http://codepen.io/jjmax/full/YyVRPM/">Demo</a></li>
+                  <li><a href="http://codepen.io/jjmax/pen/YyVRPM/">Source</a></li>
+                </ul>
+                
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="wikipedia">
+              <h3 class="text-center">Wikipedia Search API App</h3>
+              <p class="text-center">Using Wikipedia API to search articles, includes autocomplete search box</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/wikipedia-400.jpg" alt="Wikipedia Search API App" />
+                <ul>
+                  <li><a href="http://codepen.io/jjmax/full/eJYZJx/">Demo</a></li>
+                  <li><a href="http://codepen.io/jjmax/pen/eJYZJx/">Source</a></li>
+                </ul>
+                
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="quote">
+              <h3 class="text-center">Random Quote Machine App</h3>
+              <p class="text-center">Pulls quotes from a Google Sheet and displays them randomly</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/quote-400.jpg" alt="Random Quote Machine App" />
+                <ul>
+                  <li><a href="http://codepen.io/jjmax/full/dYNvgK/">Demo</a></li>
+                  <li><a href="http://codepen.io/jjmax/pen/dYNvgK/">Source</a></li>
+                </ul>
+                
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="percentages">
+              <h3 class="text-center">Percentages Calculator App</h3>
+              <p class="text-center">A Javascript powered calculator for weightlifting</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/dom-400.jpg" alt="Percentages Calculator App" />
+                <ul>
+                  <li><a href="http://dom.boxitoff.com/">Demo</a></li>
+                  <li><a href="https://github.com/jjmax75/dom-calculator">Source</a></li>
+                </ul>
+                <p>An app built for use by gym coaches who need to calculate percentages of max weight lifted</p>
+            </div>
+            
+            
+            <div role="tabpanel" class="tab-pane fade" id="polling">
+              <h3 class="text-center">Polling App</h3>
+              <p class="text-center">An app to publish polls publicly</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/poll-400.jpg" alt="Polling App" />
+                <ul>
+                  
+                  <li><a href="https://github.com/jjmax75/polling-app">Source</a></li>
+                </ul>
+                <p>Currently working on this app.</p><p>Using React to build frontend and Node for API.</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade in active" id="hexmap">
+              <h3 class="text-center">Hexagon Tile Map Generator App</h3>
+              <p class="text-center">An app to generate an SVG hexagon tile grid from a PNG file</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/hex-400.jpg" alt="Hexagon Tile Map Generator App" />
+                <ul>
+                  <li><a href="https://node-hex-tilemap-generator.herokuapp.com/">Demo</a></li>
+                  <li><a href="https://github.com/jjmax75/node-hexmap-generator">Source</a></li>
+                </ul>
+                <p>This app was built as part of a larger EdTech project I am working on.</p><p>It converts a PNG image of a map (e.g. map of the world) into an SVG based hexagonal grid of terrain.</p><p>The idea is that it will be used to teach students about geography and how it affects the development of civilisations.</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="payments">
+              <h3 class="text-center">Payments Library Demo App</h3>
+              <p class="text-center">An demo app to take payments from Paypal and Braintree in Node</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/payment-400.jpg" alt="Payments Library Demo App" />
+                <ul>
+                  <li><a href="https://node-payment-gateway.herokuapp.com/">Demo</a></li>
+                  <li><a href="https://github.com/jjmax75/node-payments-library">Source</a></li>
+                </ul>
+                <p>Use Paypal and Braintree SDK to process payments based on criteria.</p><p>Certain currencies and card types go to Paypal, others go to Braintree</p><p>Server side checking of card type and validity before sending to relevant gateway</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="terrain">
+              <h3 class="text-center">Image to Terrain Module</h3>
+              <p class="text-center">A Node module to convert a PNG image to an array of terrain types</p>
+                <img class="pull-left img-responsive center-block" src="http://dummyimage.com/400x300/2da376/fff.png&text=Image+unavailable" alt="Image to Terrain Module" />
+                <ul>
+                  <li><a href="https://www.npmjs.com/package/node-image-terrain-array">Demo</a></li>
+                  <li><a href="https://github.com/jjmax75/node-image-terrain-array">Source</a></li>
+                </ul>
+                <p>Used as a module of the Hexagon Map Generator App</p><p>Has evolved from generating the terrain array to returning an array of average hsv values for each hexagon, array of centre points of hexagons, hexagon radius, number of rows</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="image-search">
+              <h3 class="text-center">Google Image Search Module</h3>
+              <p class="text-center">A Node module to search for images on Google</p>
+                <img class="pull-left img-responsive center-block" src="http://dummyimage.com/400x300/2da376/fff.png&text=Image+unavailable" alt="Google Image Search Module" />
+                <ul>
+                  <li><a href="https://www.npmjs.com/package/node-google-image-search">Demo</a></li>
+                  <li><a href="https://github.com/jjmax75/google-image-search">Source</a></li>
+                </ul>
+                <p>This is a a simple way to get image results from a google custom search engine using node</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="bug-tracker">
+              <h3 class="text-center">MERN Bug Tracker App</h3>
+              <p class="text-center">A bug tracker built on the MERN stack</p>
+                <img class="pull-left img-responsive center-block" src="http://dummyimage.com/400x300/2da376/fff.png&text=Image+unavailable" alt="MERN Bug Tracker App" />
+                <ul>
+                  
+                  <li><a href="https://github.com/jjmax75/mern-bugtracker">Source</a></li>
+                </ul>
+                <p>A project with the goal of learning MERN development from the ground up by following <a href='https://hashnode.com/post/react-tutorial-using-mern-stack-ciiyus9m700qqge53mer0isxz'>this excellent article on Hashnode</a></p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="image-search-abstraction">
+              <h3 class="text-center">Image Search Abstraction App</h3>
+              <p class="text-center">Full stack JavaScript app that allows you to search for images</p>
+                <img class="pull-left img-responsive center-block" src="http://dummyimage.com/400x300/2da376/fff.png&text=Image+unavailable" alt="Image Search Abstraction App" />
+                <ul>
+                  <li><a href="https://jjmax-image-search.herokuapp.com/">Demo</a></li>
+                  <li><a href="https://github.com/jjmax75/image-search-abstraction">Source</a></li>
+                </ul>
+                
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="file-metadata">
+              <h3 class="text-center">File Metadata API</h3>
+              <p class="text-center">A simple API that returns an alert with the size of a file</p>
+                <img class="pull-left img-responsive center-block" src="http://dummyimage.com/400x300/2da376/fff.png&text=Image+unavailable" alt="File Metadata API" />
+                <ul>
+                  <li><a href="https://whispering-waters-22441.herokuapp.com/">Demo</a></li>
+                  <li><a href="https://github.com/jjmax75/file-metadata">Source</a></li>
+                </ul>
+                <p>A File Metadata Microservice using Node, Express and Multer built with Clementine JS boilerplate.</p><p>Upload a file and an alert will report back the filesize</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="url-shortener">
+              <h3 class="text-center">URL Shortener Microservice</h3>
+              <p class="text-center">A URL Shortener Microservice using Node</p>
+                <img class="pull-left img-responsive center-block" src="http://dummyimage.com/400x300/2da376/fff.png&text=Image+unavailable" alt="URL Shortener Microservice" />
+                <ul>
+                  <li><a href="https://jjmax-url.herokuapp.com/">Demo</a></li>
+                  <li><a href="https://github.com/jjmax75/fcc-url-shortner">Source</a></li>
+                </ul>
+                <p>A URL Shortener Microservice using Node, Express and Mongo built with Clementine JS boilerplate</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="header-parser">
+              <h3 class="text-center">Header Parser Microservice</h3>
+              <p class="text-center">A header parser microservice built with Node</p>
+                <img class="pull-left img-responsive center-block" src="http://dummyimage.com/400x300/2da376/fff.png&text=Image+unavailable" alt="Header Parser Microservice" />
+                <ul>
+                  <li><a href="https://nameless-garden-79631.herokuapp.com/">Demo</a></li>
+                  <li><a href="https://github.com/jjmax75/fcc-header-parser">Source</a></li>
+                </ul>
+                <p>Returns Information about client, location, OS of user</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="timestamp">
+              <h3 class="text-center">Timestamp Microservice</h3>
+              <p class="text-center">A timestamp microservice built with Node</p>
+                <img class="pull-left img-responsive center-block" src="http://dummyimage.com/400x300/2da376/fff.png&text=Image+unavailable" alt="Timestamp Microservice" />
+                <ul>
+                  <li><a href="https://nameless-garden-79631.herokuapp.com/">Demo</a></li>
+                  <li><a href="https://thawing-eyrie-40066.herokuapp.com/">Source</a></li>
+                </ul>
+                <p>Converts a timestamp to natural time and vice versa</p>
+            </div>
+            
+            
+            <div role="tabpanel" class="tab-pane fade" id="ice-app">
+              <h3 class="text-center">ICE Android App</h3>
+              <p class="text-center">Android App that utilises QR codes to pull information from a server</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/ice-400.jpg" alt="ICE Android App" />
+                <ul>
+                  
+                  
+                </ul>
+                <p>I lead a team that built this app as part of a larger enterprise application.</p><p>I built the API and admin end for the app.</p><p>Covered by NDA so demo and source is unavailable</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="needaticket">
+              <h3 class="text-center">Need A Ticket Ecommerce Website</h3>
+              <p class="text-center">Ecommerce website for reselling event tickets</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/needaticket-400.jpg" alt="Need A Ticket Ecommerce Website" />
+                <ul>
+                  <li><a href="http://www.needaticket.ie/">Demo</a></li>
+                  
+                </ul>
+                <p>Client site built on osCommerce platform.</p><p>Has been operating since 2005 with a strong customer base and sales</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="pec">
+              <h3 class="text-center">Portarlington Enterprise Centre Website</h3>
+              <p class="text-center">Community website for enterprise centre in Ireland</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/pec-400.jpg" alt="Portarlington Enterprise Centre Website" />
+                <ul>
+                  <li><a href="http://www.pec.ie/">Demo</a></li>
+                  
+                </ul>
+                <p>Client site built from groundup using CodeIgniter framework</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="faad">
+              <h3 class="text-center">Forever and a Day Website</h3>
+              <p class="text-center">Repair and modification of client website</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/faad-400.jpg" alt="Forever and a Day Website" />
+                <ul>
+                  
+                  
+                </ul>
+                <p>Client site which needed additional functionality added plus finishing of some original elements</p><p>Built with vanilla PHP</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="python-adventure">
+              <h3 class="text-center">Python Console Text Adventure</h3>
+              <p class="text-center">Text Based Adventure for kids, built with Python</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/enormous-400.jpg" alt="Python Console Text Adventure" />
+                <ul>
+                  
+                  <li><a href="https://github.com/jjmax75/enormous-duck">Source</a></li>
+                </ul>
+                <p>A text adventure built as an experiment with Python</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="bbh">
+              <h3 class="text-center">Bumblebee Honey Website</h3>
+              <p class="text-center">Installation and modifying of Wordpress Theme and plugins</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/bbh-400.jpg" alt="Bumblebee Honey Website" />
+                <ul>
+                  <li><a href="http://www.bumblebeehoney.ie/">Demo</a></li>
+                  
+                </ul>
+                <p>Client work to develop website with Wordpress</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="stock">
+              <h3 class="text-center">Stock Price Wordpress Plugin</h3>
+              <p class="text-center">Development of plugin to display stock prices on Wordpress</p>
+                <img class="pull-left img-responsive center-block" src="http://dummyimage.com/400x300/2da376/fff.png&text=Image+unavailable" alt="Stock Price Wordpress Plugin" />
+                <ul>
+                  
+                  <li><a href="https://bitbucket.org/behanj/stock-price-wp-plugin">Source</a></li>
+                </ul>
+                <p>Source code is available on request</p>
+            </div>
+            
+            <div role="tabpanel" class="tab-pane fade" id="book">
+              <h3 class="text-center">Book Wishlist App</h3>
+              <p class="text-center">App to store a book list submission using Rails</p>
+                <img class="pull-left img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/wishlist-400.jpg" alt="Book Wishlist App" />
+                <ul>
+                  <li><a href="https://bookwishlist-demo.herokuapp.com/">Demo</a></li>
+                  <li><a href="https://github.com/jjmax75/bookwishlist-rails">Source</a></li>
+                </ul>
+                <p>An app for a school ibrary to take Book requests from students</p><p>built with Ruby on Rails</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+    
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Contact Details</h4>
+        <ul>
+          <li><a href="tel:+66 87 0894606"><i class="fa fa-phone" aria-hidden="true"></i> +66 87 0894606</a></li>
+          <li><a href="mailto:sean@boxitoff.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> sean@boxitoff.com</a></li>
+        </ul>
+        <p></p>
+      </div>
+      <div class="col-md-4">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="https://twitter.com/jjmax75"><i class="fa fa-twitter" aria-hidden="true"></i> @jjmax75</a></li>
+          <li><a href="https://github.com/jjmax75"><i class="fa fa-github" aria-hidden="true"></i> /jjmax75</a></li>
+          <li><a href="https://www.linkedin.com/in/seanbehan75"><i class="fa fa-linkedin" aria-hidden="true"></i> /in/seanbehan75</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h4>About Sean Behan</h4>
+        <p>I am the father of two amazing kids who are a constant reminder to me of the important things in life.</p><p>I love learning new things and am obsessive about tracking progress to support improvement and growth.</p>
+      </div>
+    </div>
+    <div class="row">
+      &copy; Sean Behan 2016
+        <script>
+          var year = new Date().getFullYear;
+          if (year > 2016) {
+           document.write(' - ' + year);
+          }
+        </script>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript">
+    WebFontConfig = {
+        google: {
+            families: ['Montserrat::latin']
+        }
+    };
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })();
+    
+</script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="js/site.js" charset="utf-8"></script>
+
+</body>
+</html>

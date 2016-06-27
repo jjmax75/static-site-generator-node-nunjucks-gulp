@@ -1,0 +1,289 @@
+{
+  "info": {
+    "title": "Box It Off",
+    "siteDescription": "Web development by Sean Behan",
+    "owner": "Sean Behan",
+    "phone": "+66 87 0894606",
+    "email": "sean@boxitoff.com",
+    "twitter": "jjmax75",
+    "linkedin": "seanbehan75",
+    "github": "jjmax75"
+  },
+  "content": {
+    "footerAbout": {
+      "title": "About Sean Behan",
+      "content": "<p>I am the father of two amazing kids who are a constant reminder to me of the important things in life.</p><p>I love learning new things and am obsessive about tracking progress to support improvement and growth.</p>"
+    }
+  },
+  "portfolio": {
+    "javascript": [
+      {
+        "slug": "tic-tac-toe",
+        "title": "Tic Tac Toe Game",
+        "subtitle": "Javascript powered tic-tac-toe using Monte Carlo algorithm for AI",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/tictactoe-400.jpg",
+        "demo": "http://codepen.io/jjmax/full/GoprRN/",
+        "source": "http://codepen.io/jjmax/pen/GoprRN/",
+        "description": "<p>I built this Tic Tac Toe game using a Monte Carlo algorithm for the computer player AI.</p><p>I chose the Monte Carlo approach as I wanted to experiment with this algorithm rather than building an AI that used a hard coded decision tree.</p><p>The objective was to create an unbeatable computer player however the Monte Carlo approach was not sufficient to this task and my computer AI was beatable using certain strategies.</p><p>After some research I found that I needed to rebuild the AI using a modified Monte Carlo algorithm called Upper Confidence bounds applied to Trees (UCT).</p><p>Other alternatives would be a Minimax Algorithm or a decision tree.</p><p>The design style, sounds and look, were inspired by the 1984 movie WarGames.</p>"
+      },
+      {
+        "slug": "simon",
+        "title": "Star Wars Simon Game",
+        "subtitle": "A Simon game built with JS",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/simon-400.jpg",
+        "demo": "http://codepen.io/jjmax/full/XXdZKp/",
+        "source": "http://codepen.io/jjmax/pen/XXdZKp/",
+        "description": ""
+      },
+      {
+        "slug": "calculator",
+        "title": "Speaking Calculator App",
+        "subtitle": "A JS calculator built with canvas and the speech synthesis API",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/calc-400.jpg",
+        "demo": "http://codepen.io/jjmax/full/KdJNGR/",
+        "source": "http://codepen.io/jjmax/pen/KdJNGR/",
+        "description": ""
+      },
+      {
+        "slug": "weather",
+        "title": "Local Weather Report App",
+        "subtitle": "Weather report with contextual video background",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/weather-400.jpg",
+        "demo": "http://codepen.io/jjmax/full/YyVRPM/",
+        "source": "http://codepen.io/jjmax/pen/YyVRPM/",
+        "description": ""
+      },
+      {
+        "slug": "pomodoro",
+        "title": "Pomodoro Clock App",
+        "subtitle": "A Pomodoro Clock built with JS, Canvas and Google MDL",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/pomodoro-400.jpg",
+        "demo": "http://codepen.io/jjmax/full/xwLEYK/",
+        "source": "http://codepen.io/jjmax/pen/xwLEYK/",
+        "description": ""
+      },
+      {
+        "slug": "twitch",
+        "title": "Twitch TV API App",
+        "subtitle": "Weather report with contextual video background",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/weather-400.jpg",
+        "demo": "http://codepen.io/jjmax/full/YyVRPM/",
+        "source": "http://codepen.io/jjmax/pen/YyVRPM/",
+        "description": ""
+      },
+      {
+        "slug": "wikipedia",
+        "title": "Wikipedia Search API App",
+        "subtitle": "Using Wikipedia API to search articles, includes autocomplete search box",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/wikipedia-400.jpg",
+        "demo": "http://codepen.io/jjmax/full/eJYZJx/",
+        "source": "http://codepen.io/jjmax/pen/eJYZJx/",
+        "description": ""
+      },
+      {
+        "slug": "quote",
+        "title": "Random Quote Machine App",
+        "subtitle": "Pulls quotes from a Google Sheet and displays them randomly",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/quote-400.jpg",
+        "demo": "http://codepen.io/jjmax/full/dYNvgK/",
+        "source": "http://codepen.io/jjmax/pen/dYNvgK/",
+        "description": ""
+      },
+      {
+        "slug": "percentages",
+        "title": "Percentages Calculator App",
+        "subtitle": "A Javascript powered calculator for weightlifting",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/dom-400.jpg",
+        "demo": "http://dom.boxitoff.com/",
+        "source": "https://github.com/jjmax75/dom-calculator",
+        "description": "<p>An app built for use by gym coaches who need to calculate percentages of max weight lifted</p>"
+      }
+    ],
+    "node": [
+      {
+        "slug": "polling",
+        "title": "Polling App",
+        "subtitle": "An app to publish polls publicly",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/poll-400.jpg",
+        "demo": "",
+        "source": "https://github.com/jjmax75/polling-app",
+        "description": "<p>Currently working on this app.</p><p>Using React to build frontend and Node for API.</p>"
+      },
+      {
+        "active": true,
+        "slug": "hexmap",
+        "title": "Hexagon Tile Map Generator App",
+        "subtitle": "An app to generate an SVG hexagon tile grid from a PNG file",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/hex-400.jpg",
+        "demo": "https://node-hex-tilemap-generator.herokuapp.com/",
+        "source": "https://github.com/jjmax75/node-hexmap-generator",
+        "description": "<p>This app was built as part of a larger EdTech project I am working on.</p><p>It converts a PNG image of a map (e.g. map of the world) into an SVG based hexagonal grid of terrain.</p><p>The idea is that it will be used to teach students about geography and how it affects the development of civilisations.</p>"
+      },
+      {
+        "slug": "payments",
+        "title": "Payments Library Demo App",
+        "subtitle": "An demo app to take payments from Paypal and Braintree in Node",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/payment-400.jpg",
+        "demo": "https://node-payment-gateway.herokuapp.com/",
+        "source": "https://github.com/jjmax75/node-payments-library",
+        "description": "<p>Use Paypal and Braintree SDK to process payments based on criteria.</p><p>Certain currencies and card types go to Paypal, others go to Braintree</p><p>Server side checking of card type and validity before sending to relevant gateway</p>"
+      },
+      {
+        "slug": "terrain",
+        "title": "Image to Terrain Module",
+        "subtitle": "A Node module to convert a PNG image to an array of terrain types",
+        "image": "",
+        "demo": "https://www.npmjs.com/package/node-image-terrain-array",
+        "source": "https://github.com/jjmax75/node-image-terrain-array",
+        "description": "<p>Used as a module of the Hexagon Map Generator App</p><p>Has evolved from generating the terrain array to returning an array of average hsv values for each hexagon, array of centre points of hexagons, hexagon radius, number of rows</p>"
+      },
+      {
+        "slug": "image-search",
+        "title": "Google Image Search Module",
+        "subtitle": "A Node module to search for images on Google",
+        "image": "",
+        "demo": "https://www.npmjs.com/package/node-google-image-search",
+        "source": "https://github.com/jjmax75/google-image-search",
+        "description": "<p>This is a a simple way to get image results from a google custom search engine using node</p>"
+      },
+      {
+        "slug": "bug-tracker",
+        "title": "MERN Bug Tracker App",
+        "subtitle": "A bug tracker built on the MERN stack",
+        "image": "",
+        "demo": "",
+        "source": "https://github.com/jjmax75/mern-bugtracker",
+        "description": "<p>A project with the goal of learning MERN development from the ground up by following <a href='https://hashnode.com/post/react-tutorial-using-mern-stack-ciiyus9m700qqge53mer0isxz'>this excellent article on Hashnode</a></p>"
+      },
+      {
+        "slug": "image-search-abstraction",
+        "title": "Image Search Abstraction App",
+        "subtitle": "Full stack JavaScript app that allows you to search for images",
+        "image": "",
+        "demo": "https://jjmax-image-search.herokuapp.com/",
+        "source": "https://github.com/jjmax75/image-search-abstraction",
+        "description": ""
+      },
+      {
+        "slug": "file-metadata",
+        "title": "File Metadata API",
+        "subtitle": "A simple API that returns an alert with the size of a file",
+        "image": "",
+        "demo": "https://whispering-waters-22441.herokuapp.com/",
+        "source": "https://github.com/jjmax75/file-metadata",
+        "description": "<p>A File Metadata Microservice using Node, Express and Multer built with Clementine JS boilerplate.</p><p>Upload a file and an alert will report back the filesize</p>"
+      },
+      {
+        "slug": "url-shortener",
+        "title": "URL Shortener Microservice",
+        "subtitle": "A URL Shortener Microservice using Node",
+        "image": "",
+        "demo": "https://jjmax-url.herokuapp.com/",
+        "source": "https://github.com/jjmax75/fcc-url-shortner",
+        "description": "<p>A URL Shortener Microservice using Node, Express and Mongo built with Clementine JS boilerplate</p>"
+      },
+      {
+        "slug": "header-parser",
+        "title": "Header Parser Microservice",
+        "subtitle": "A header parser microservice built with Node",
+        "image": "",
+        "demo": "https://nameless-garden-79631.herokuapp.com/",
+        "source": "https://github.com/jjmax75/fcc-header-parser",
+        "description": "<p>Returns Information about client, location, OS of user</p>"
+      },
+      {
+        "slug": "timestamp",
+        "title": "Timestamp Microservice",
+        "subtitle": "A timestamp microservice built with Node",
+        "image": "",
+        "demo": "https://nameless-garden-79631.herokuapp.com/",
+        "source": "https://thawing-eyrie-40066.herokuapp.com/",
+        "description": "<p>Converts a timestamp to natural time and vice versa</p>"
+      }
+    ],
+    "react": [
+      {
+        "slug": "bug-tracker",
+        "title": "MERN Bug Tracker"
+      },
+      {
+        "slug": "polling",
+        "title": "Polling App"
+      }
+    ],
+    "other": [
+      {
+        "slug": "ice-app",
+        "title": "ICE Android App",
+        "subtitle": "Android App that utilises QR codes to pull information from a server",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/ice-400.jpg",
+        "demo": "",
+        "source": "",
+        "description": "<p>I lead a team that built this app as part of a larger enterprise application.</p><p>I built the API and admin end for the app.</p><p>Covered by NDA so demo and source is unavailable</p>"
+      },
+      {
+        "slug": "needaticket",
+        "title": "Need A Ticket Ecommerce Website",
+        "subtitle": "Ecommerce website for reselling event tickets",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/needaticket-400.jpg",
+        "demo": "http://www.needaticket.ie/",
+        "source": "",
+        "description": "<p>Client site built on osCommerce platform.</p><p>Has been operating since 2005 with a strong customer base and sales</p>"
+      },
+      {
+        "slug": "pec",
+        "title": "Portarlington Enterprise Centre Website",
+        "subtitle": "Community website for enterprise centre in Ireland",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/pec-400.jpg",
+        "demo": "http://www.pec.ie/",
+        "source": "",
+        "description": "<p>Client site built from groundup using CodeIgniter framework</p>"
+      },
+      {
+        "slug": "faad",
+        "title": "Forever and a Day Website",
+        "subtitle": "Repair and modification of client website",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/faad-400.jpg",
+        "demo": "",
+        "source": "",
+        "description": "<p>Client site which needed additional functionality added plus finishing of some original elements</p><p>Built with vanilla PHP</p>"
+      },
+      {
+        "slug": "python-adventure",
+        "title": "Python Console Text Adventure",
+        "subtitle": "Text Based Adventure for kids, built with Python",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/enormous-400.jpg",
+        "demo": "",
+        "source": "https://github.com/jjmax75/enormous-duck",
+        "description": "<p>A text adventure built as an experiment with Python</p>"
+      },
+      {
+        "slug": "bbh",
+        "title": "Bumblebee Honey Website",
+        "subtitle": "Installation and modifying of Wordpress Theme and plugins",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/bbh-400.jpg",
+        "demo": "http://www.bumblebeehoney.ie/",
+        "source": "",
+        "description": "<p>Client work to develop website with Wordpress</p>"
+      },
+      {
+        "slug": "stock",
+        "title": "Stock Price Wordpress Plugin",
+        "subtitle": "Development of plugin to display stock prices on Wordpress",
+        "image": "",
+        "demo": "",
+        "source": "https://bitbucket.org/behanj/stock-price-wp-plugin",
+        "description": "<p>Source code is available on request</p>"
+      },
+      {
+        "slug": "book",
+        "title": "Book Wishlist App",
+        "subtitle": "App to store a book list submission using Rails",
+        "image": "https://s3-eu-west-1.amazonaws.com/jjmax/images/wishlist-400.jpg",
+        "demo": "https://bookwishlist-demo.herokuapp.com/",
+        "source": "https://github.com/jjmax75/bookwishlist-rails",
+        "description": "<p>An app for a school ibrary to take Book requests from students</p><p>built with Ruby on Rails</p>"
+      }
+    ]
+  }
+}

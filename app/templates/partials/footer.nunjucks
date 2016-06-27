@@ -1,0 +1,56 @@
+{# footer.nunjucks #}
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Contact Details</h4>
+        <ul>
+          <li><a href="tel:{{ info.phone }}"><i class="fa fa-phone" aria-hidden="true"></i> {{ info.phone }}</a></li>
+          <li><a href="mailto:{{ info.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i> {{ info.email }}</a></li>
+        </ul>
+        <p></p>
+      </div>
+      <div class="col-md-4">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="https://twitter.com/{{ info.twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i> @{{ info.twitter }}</a></li>
+          <li><a href="https://github.com/{{ info.github }}"><i class="fa fa-github" aria-hidden="true"></i> /{{ info.github }}</a></li>
+          <li><a href="https://www.linkedin.com/in/{{ info.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i> /in/{{ info.linkedin }}</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h4>{{ content.footerAbout.title }}</h4>
+        {{ content.footerAbout.content | safe }}
+      </div>
+    </div>
+    <div class="row">
+      &copy; {{ info.owner }} 2016
+        <script>
+          var year = new Date().getFullYear;
+          if (year > 2016) {
+           document.write(' - ' + year);
+          }
+        </script>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript">
+    WebFontConfig = {
+        google: {
+            families: ['Montserrat::latin']
+        }
+    };
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })();
+    
+</script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="js/site.js" charset="utf-8"></script>

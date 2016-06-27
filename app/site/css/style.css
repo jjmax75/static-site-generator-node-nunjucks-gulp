@@ -1,0 +1,128 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  color: #555;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 { color: #333; font-family: 'Montserrat', sans-serif; font-weight: 700; }
+
+h1 { font-size: 35px; margin-bottom: 30px; margin-top: 30px; }
+
+h4 { color: #fff;}
+
+p { font-size: 16px; line-height: 28px; margin-bottom: 25px; }
+
+a {
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	color: #1abc9c;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+	word-wrap: break-word;
+}
+
+a:hover,
+a:focus { color: #7b7b7b; outline: 0; text-decoration: none; }
+
+a:before,
+a:after {
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+footer {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #ccc;
+	display: block;
+	height: 1px;
+	margin: 1em 0;
+	padding: 0;
+}
+
+header {
+  background-color: #1abc9c;
+  border-color: #16a085;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.intro {
+  padding: 70px 0;
+  background-color: #f2f2f2;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+.navbar-default {
+  background: none;
+  border: none;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #222;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background: none;
+  border: none;
+  color: #222;
+}
+
+.work {
+  padding: 50px 0;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: black;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 10px 20px;
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+}
+
+.tab-content img { padding: 10px;}

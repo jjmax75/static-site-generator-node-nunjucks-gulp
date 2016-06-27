@@ -1,0 +1,34 @@
+{
+  "name": "boxitoff-website",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "4.4.5"
+  },
+  "description": "Website for Boxitoff built with Gulp & Nunjucks",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjmax75/static-site-generator-node-nunjucks-gulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jjmax75/static-site-generator-node-nunjucks-gulp/issues"
+  },
+  "homepage": "https://github.com/jjmax75/static-site-generator-node-nunjucks-gulp#readme",
+  "keywords": [
+    "Gulp",
+    "Nunjucks",
+    "Static site"
+  ],
+  "author": "Sean Behan <behanj@gmail.com> (http://boxitoff.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-data": "1.2.1",
+    "gulp-nunjucks-render": "2.0.0",
+    "gulp-util": "3.0.7"
+  }
+}

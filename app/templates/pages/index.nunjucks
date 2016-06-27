@@ -1,0 +1,65 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% block content %}
+{{ nav.active('home') }}
+<main>
+  <section class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-md-offset-5">
+          <img class="img-circle img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/sean-behan.jpg" alt="Sean Behan - Web Developer" />
+        </div>
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <h1>Hi, My name is Sean Behan</h1>
+          <p>I am a web developer from Ireland, living in Thailand.</p>
+          <p>I have been building websites and apps since 2005. My preferred language is
+          javascript but I have also worked with other languages such as PHP and Python.</p>
+          <p>I love working with the JavaScript development stack including Node, React, Express and Mongo DB. I have an active <a href="https://github.com/jjmax75">GitHub profile</a> that showcases
+          some of the projects I've been working on.</p>
+          <p>I am currently looking for a full-time role working as a Fullstack Javascript Developer. I am also available for
+          contract and freelance work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="work">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <figure>
+            <a href="/work.html">
+              <img class="img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/JavaScript_logo_2.svg" alt="Javascript" />
+              <figcaption>
+                <p>Javascript</p>
+                <p>Click here for examples of my work with JS scripting and frontend</p>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure>
+            <a href="/work.html">
+              <img class="img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/Node.js_logo_c.svg" alt="Node JS" />
+              <figcaption>
+                <p>Node JS</p>
+                <p>Click here for examples of my work with Node JS</p>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure>
+            <a href="/work.html">
+              <img class="img-responsive center-block" src="https://s3-eu-west-1.amazonaws.com/jjmax/images/React.js_logo.svg" alt="React" />
+              <figcaption>
+                <p>React</p>
+                <p>Click here for examples of my work with React</p>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+{% endblock %}
